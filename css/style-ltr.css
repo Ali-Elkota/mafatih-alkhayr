@@ -1,0 +1,129 @@
+ body {
+     direction: ltr;
+     text-align: left;
+ }
+
+ .text-left {
+     text-align: right !important
+ }
+
+ .text-right {
+     text-align: left !important
+ }
+
+ .mr-20 {
+     margin-right: 0;
+     margin-left: 20px;
+ }
+
+ .ml-20 {
+     margin-right: 20px;
+     margin-left: 0;
+ }
+
+ .mr-10 {
+     margin-right: 0;
+     margin-left: 10px;
+ }
+
+ .ml-10 {
+     margin-right: 10px;
+     margin-left: 0;
+ }
+
+ .social_share {
+     right: unset;
+     left: 55px;
+ }
+
+ .social_share.active {
+     right: unset;
+     left: -150px;
+ }
+
+ .social_share:after {
+     left: unset;
+     right: -7px;
+     border-color: #EEE #EEE transparent transparent;
+ }
+
+ .progress-bar {
+     background: var(--main);
+     border-radius: 0 100px 100px 0;
+ }
+
+ .box_info_web img {
+     margin-right: 0;
+     margin-left: auto;
+ }
+
+ .info_box_index2 > ul {
+     flex-direction: row-reverse
+ }
+
+ .mr-5,
+ .mx-5 {
+     margin-right: 0rem !important;
+     margin-left: 3rem !important;
+ }
+
+ .card_info {
+     border-radius: 0 140px
+ }
+
+
+ .icon_fa {
+     right: 10px;
+     left: unset
+ }
+
+
+ .rounded-pill1 {
+     border-radius: 100px 0 0 100px !important;
+ }
+
+ .rounded-pill2 {
+     border-radius: 0 100px 100px 0 !important;
+ }
+
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) {}
+
+ /*Small devices (landscape phones, less than 768px)*/
+ @media (max-width: 767.98px) {
+     .info_callUs {
+         margin-left: 0;
+         margin-right: auto;
+     }
+ }
+
+ /*Medium devices (tablets, less than 992px)*/
+
+ @media (max-width: 991.98px) {
+
+     .nav_bar {
+         right: unset;
+         left: 0;
+         transform: translateX(-100%);
+     }
+
+     .nav_bar li > a:after {
+         left: -15px;
+         right: unset
+     }
+
+     .nav_bar .dropdown-menu .dropdown-item:after {
+         left: -8px;
+         right: 0
+     }
+
+     .nav_bar .dropdown-menu:after {
+         left: -11px;
+         right: unset
+     }
+
+ }
+
+ /*Large devices (desktops, less than 1200px)*/
+ @media (max-width: 1199.98px) {}
